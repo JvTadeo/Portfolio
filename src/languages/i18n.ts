@@ -1,4 +1,5 @@
 import { createI18n } from "vue-i18n";
+import { Images } from "@/assets/images";
 
 const messages = {
     us: {
@@ -118,7 +119,7 @@ const messages = {
                         title: "Fetch Pets - Mobile",
                         description: "A final course project focused on pet adoption and donation. This fully functional mobile app was built using React Native for the front end and Node.js with Express for the back end. Supabase was used for database management and authentication. Key features include user registration, pet listings, management, and a complete authentication flow with real-time data updates.",
                         githubLink: "https://github.com/felipergoncalves/mobile-fetch-pets",
-                        image: "src/assets/images/FetchPet_Preview.webp",
+                        image: Images.FetchPetPreview,
                         altImage: "Fetch Pets App Preview",
                         tags: ["React Native", "TypeScript", "Node.JS", "Express", "Supabase"]
                     },
@@ -126,7 +127,7 @@ const messages = {
                         title: "PokeDex",
                         description: "A simple PokeDex built using React and Tailwind CSS. It fetches data from the PokeAPI and displays information about different Pokemon.",
                         githubLink: "https://github.com/JvTadeo/PokeDex",
-                        image: "src/assets/images/PokeDex_Preview.webp",
+                        image: Images.PokeDex,
                         altImage: "PokeDex Preview",
                         tags: ["React", "Tailwind CSS", "PokeAPI"]
                     },
@@ -134,7 +135,7 @@ const messages = {
                         title: "ToDo",
                         description: "A simple ToDo application where you can add tasks, mark them as completed, and delete them. Built with React and Tailwind CSS.",
                         githubLink: "https://github.com/JvTadeo/ToDo",
-                        image: "src/assets/images/Todo_Preview.webp",
+                        image: Images.TodoPreview,
                         altImage: "ToDo Preview",
                         tags: ["React", "Tailwind CSS"]
                     }
@@ -148,7 +149,7 @@ const messages = {
                         description: "A simple Pong remake developed in Unity for self-practice. While the project is small in scope, it has been a great opportunity to strengthen my understanding of game mechanics, Unity's component system, and C# scripting.",
                         githubLink: "https://github.com/JvTadeo/PongClone",
                         itchLink: "https://tadeozin.itch.io/pong-clone",
-                        image: "src/assets/images/Pong_Preview_MainMenu.webp",
+                        image: Images.PongMenuPreview,
                         altImage: "Pong Preview",
                         tags: ["Unity", "C#"]
                     }
@@ -273,7 +274,7 @@ const messages = {
                         title: "Fetch Pets - Mobile",
                         description: "Projeto final de curso focado em adoção e doação de pets. Este aplicativo mobile totalmente funcional foi desenvolvido com React Native no front-end e Node.js com Express no back-end. O Supabase foi utilizado para o gerenciamento do banco de dados e autenticação. Os principais recursos incluem cadastro de usuários, listagem e gerenciamento de pets, e um fluxo completo de autenticação com atualizações de dados em tempo real.",
                         githubLink: "https://github.com/felipergoncalves/mobile-fetch-pets",
-                        image: "src/assets/images/FetchPet_Preview.webp",
+                        image: Images.FetchPetPreview,
                         altImage: "Prévia do App Fetch Pets",
                         tags: ["React Native", "TypeScript", "Node.JS", "Express", "Supabase"]
                     },
@@ -281,7 +282,7 @@ const messages = {
                         title: "PokeDex",
                         description: "Uma Pokédex simples construída com React e Tailwind CSS. Ela consome dados da PokeAPI e exibe informações sobre diferentes Pokémon.",
                         githubLink: "https://github.com/JvTadeo/PokeDex",
-                        image: "src/assets/images/PokeDex_Preview.webp",
+                        image: Images.PokeDex,
                         altImage: "Prévia da PokeDex",
                         tags: ["React", "Tailwind CSS", "PokeAPI"]
                     },
@@ -289,7 +290,7 @@ const messages = {
                         title: "ToDo",
                         description: "Um aplicativo simples de tarefas (ToDo) onde você pode adicionar tarefas, marcá-las como concluídas e excluí-las. Desenvolvido com React e Tailwind CSS.",
                         githubLink: "https://github.com/JvTadeo/ToDo",
-                        image: "src/assets/images/Todo_Preview.webp",
+                        image: Images.TodoPreview,
                         altImage: "Prévia do ToDo",
                         tags: ["React", "Tailwind CSS"]
                     }
@@ -303,7 +304,7 @@ const messages = {
                         description: "Um remake simples do jogo Pong, desenvolvido no Unity como prática pessoal. Embora o projeto tenha escopo pequeno, foi uma ótima oportunidade para aprimorar meu entendimento sobre mecânicas de jogo, sistema de componentes do Unity e programação em C#.",
                         githubLink: "https://github.com/JvTadeo/PongClone",
                         itchLink: "https://tadeozin.itch.io/pong-clone",
-                        image: "src/assets/images/Pong_Preview_MainMenu.webp",
+                        image: Images.PongMenuPreview,
                         altImage: "Prévia do Pong",
                         tags: ["Unity", "C#"]
                     }

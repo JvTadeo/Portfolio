@@ -7,7 +7,7 @@
       <!-- Content (esquerda no desktop) -->
       <div class="relative z-10 flex flex-col items-center lg:items-start gap-2">
         <Avatar class="w-48 h-48 mb-4 lg:hidden">
-          <AvatarImage src="src/assets/images/PersonalPhoto.webp" alt="@PersonalPhoto" />
+          <AvatarImage :src="Images.PersonalPhoto" alt="@PersonalPhoto" />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
         <p class="font-bold text-xl lg:text-2xl text-center lg:text-left">{{ t('HomePage.ProfileSection.introduction')
@@ -33,7 +33,7 @@
       <!-- Avatar (direita no desktop, escondido no mobile) -->
       <div class="relative z-10 lg:flex-shrink-0 hidden lg:block">
         <Avatar class="w-48 h-48 lg:w-56 lg:h-56">
-          <AvatarImage src="src/assets/images/PersonalPhoto.webp" alt="@PersonalPhoto"/>
+          <AvatarImage :src="Images.PersonalPhoto" alt="@PersonalPhoto"/>
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
       </div>
@@ -202,6 +202,7 @@ import { Github, Linkedin, MoveDown } from 'lucide-vue-next';
 import { useI18n } from 'vue-i18n';
 import { useResumeStore } from '../store/resumeStore';
 import { useTechStackStore } from '../store/techStackStore';
+import { Images } from '@/assets/images';
 import GradientBlurBackground from '../components/GradientBlurBackground.vue';
 
 const { t, tm } = useI18n();
