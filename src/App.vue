@@ -8,6 +8,8 @@
             <component :is="Component" />
           </Transition>
         </RouterView>
+        <!-- <Footer /> -->
+        <Footer/>
       </div>
     </div>
   </div>
@@ -17,10 +19,11 @@
 import { onBeforeMount, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useLanguageStore } from './store/languageStore';
+import Footer from './components/Footer.vue';
 import NavBar from './components/NavBar.vue'
 
 const languageStore = useLanguageStore()
-const { locale } = useI18n()
+const { locale} = useI18n()
 
 onBeforeMount(() => {
   // Check if there is a language in local storage

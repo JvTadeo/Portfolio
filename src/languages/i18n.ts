@@ -155,6 +155,9 @@ const messages = {
                     }
                 ]
             }            
+        },
+        Footer: {
+            text: "All rights reserved."
         }
     },
     br: {
@@ -310,6 +313,9 @@ const messages = {
                     }
                 ]
             }
+        },
+        Footer: {
+            text: "Todos os direitos reservados."
         }
     },
 };
